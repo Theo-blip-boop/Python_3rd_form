@@ -1,1 +1,19 @@
+code = "python"
+user = input("Enter the secret code: ")
+if user == "python":
+    print("Access granted")
+else:
+    print("Access DENIED")
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even number")
+      
+else:
+    print("Odd number")
+
+
+age = int(input("How old is ya?"))
+if age >= 13:
+          print("Yas is a teen")
+
 
