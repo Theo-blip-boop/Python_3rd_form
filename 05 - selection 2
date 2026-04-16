@@ -1,0 +1,40 @@
+score = int(input("Enter score: "))
+if score >= 70:
+    print("A")
+elif score >= 60:
+    print("B")
+else:
+    print("C")
+
+user = input("Username: ")
+password = input("Password: ")
+
+if user == "admin" and password == password:
+    print("Access granted")
+
+
+num = int(input("Enter number: "))
+
+if num >= 1 and num <= 10:
+    print("In range")
+
+
+
+
+age = int(input("how old are you?")
+if age < 5:
+          print("Free")
+elif age < 18:
+          print("£5")
+else:
+          print("£10")
+
+
+
+
+password = input("What is your password")
+if password == [9] and password = password:
+          print("strong")
+else:
+          print("weak")
+          
