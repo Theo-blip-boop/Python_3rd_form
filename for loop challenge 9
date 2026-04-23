@@ -1,0 +1,7 @@
+import random
+money = [0, 1, 10, 100, 1000, 10000, 100000]
+array = random.choice(money)
+for i in range(1,9):
+  print("player", i,"gets", array, "extra" )
+  array = random.choice(money)
+  
