@@ -1,0 +1,154 @@
+answer = "N"
+print("Are we there yet?")
+while answer != "Y":
+  answer = str(input("Please respond, y or n: ").upper())
+
+
+print("Yay! We are there!!")
+
+
+
+
+
+
+
+
+StayInLoop = 1
+print("Press 1 for  choice or 2 to exit")
+while StayInLoop != 2:
+  StayInLoop = int(input("Please respond, 1 or 2: "))
+print("Exited")
+
+
+
+
+
+loopCount = 1
+while loopCount < 11:
+  loopCount = loopCount + 1
+  print("Loop", loopCount)
+print("End")
+
+
+print("End")
+
+
+
+
+
+username = ""
+while not username:
+    username = str(input("Enter username: "))
+print(username, "accetpted")
+
+
+
+
+
+
+
+
+
+
+
+import random
+
+number=random.randint(1,10)
+userGuess=int(input("Guess the number between 1-10"))
+
+# Add one line of code here to allow the user to
+#..guess the random number multiple times
+# Hint: You might need to indent some code
+
+if number < userGuess:
+    guess=int(input("Guess to High, try again: "))
+elif number == userGuess:
+    print("Wow you get it actually right")
+else:
+    guess=int(input("Guess to Low, try again: "))
+
+print("Yay! You got it correct!!!")
+
+
+
+
+
+
+
+
+
+
+
+
+timesTable = 0
+UserChoice = int(input("Enter a times-table: "))
+
+while timesTable < 13:
+  
+  print(timesTable, "x", UserChoice, "=", timesTable*number)
+  timesTable = timesTable + 1
+print("showing the", UserChoice, "times table")  
+
+    
+
+
+
+
+
+
+import random
+number = random.randint(1,10)
+attempts = 0
+guess = ""
+
+
+#add a While loop here
+while attempts <5:
+    guess=int(input("Guess the number or else!!!!"))
+    attempts = attempts + 1
+
+if guess == number:
+  print("Yay, correct")
+   
+else:
+    print("You are out of attempts")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+number = 0
+while number < 10:
+  number = number+1
+  print(number)
+
+
+
+
+
+
+
+
+
+userinput = ""
+language = "python"
+
+while  userinput != language:
+  userinput = input("what coding language is this")
+  
+print("ok, thanks")
+
+
+
+
+    
